@@ -1,0 +1,11 @@
+doctype 5
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    include lib/ember
+    include lib/util
+    script(src='/lib/base/base.js')
+    script(src='/lib/base/loader/ClassLoader.js')
+  body
+    block content

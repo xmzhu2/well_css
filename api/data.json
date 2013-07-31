@@ -1,0 +1,724 @@
+{
+    "project": {
+        "name": "Well",
+        "description": "",
+        "version": "1.0测试"
+    },
+    "files": {
+        "/Volumes/Data/work/node_work/well_css/public/lib/base/draw/Line.js": {
+            "name": "/Volumes/Data/work/node_work/well_css/public/lib/base/draw/Line.js",
+            "modules": {
+                "draw": 1
+            },
+            "classes": {
+                "Base.draw.Line": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "Base.draw": 1
+            }
+        },
+        "/Volumes/Data/work/node_work/well_css/public/lib/base/loader/ClassLoader.js": {
+            "name": "/Volumes/Data/work/node_work/well_css/public/lib/base/loader/ClassLoader.js",
+            "modules": {},
+            "classes": {
+                "X.ClassLoader": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "X": 1
+            }
+        },
+        "/Volumes/Data/work/node_work/well_css/public/lib/base/template/template.js": {
+            "name": "/Volumes/Data/work/node_work/well_css/public/lib/base/template/template.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {
+                "Base": 1
+            }
+        },
+        "/Volumes/Data/work/node_work/well_css/public/lib/base/template/template1.js": {
+            "name": "/Volumes/Data/work/node_work/well_css/public/lib/base/template/template1.js",
+            "modules": {},
+            "classes": {
+                "Base.template": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "Base": 1
+            }
+        },
+        "/Volumes/Data/work/node_work/well_css/public/lib/base/base.js": {
+            "name": "/Volumes/Data/work/node_work/well_css/public/lib/base/base.js",
+            "modules": {},
+            "classes": {
+                "Base.BASE": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {
+        "draw": {
+            "name": "draw",
+            "submodules": {},
+            "classes": {
+                "Base.draw.Line": 1,
+                "X.ClassLoader": 1,
+                "Base.template": 1,
+                "Base.BASE": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "X": 1,
+                "Base": 1
+            },
+            "tag": "module",
+            "file": "/Volumes/Data/work/node_work/well_css/public/lib/base/base.js",
+            "line": 17,
+            "description": "线<br/>\n基于svg"
+        }
+    },
+    "classes": {
+        "Base.draw.Line": {
+            "name": "Base.draw.Line",
+            "shortname": "Base.draw.Line",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "draw",
+            "namespace": "Base.draw",
+            "file": "/Volumes/Data/work/node_work/well_css/public/lib/base/draw/Line.js",
+            "line": 10,
+            "description": "线<br/>\n基于svg"
+        },
+        "X.ClassLoader": {
+            "name": "X.ClassLoader",
+            "shortname": "X.ClassLoader",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "draw",
+            "namespace": "X",
+            "file": "/Volumes/Data/work/node_work/well_css/public/lib/base/loader/ClassLoader.js",
+            "line": 9,
+            "description": "类加载"
+        },
+        "Base.template": {
+            "name": "Base.template",
+            "shortname": "Base.template",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "draw",
+            "namespace": "Base",
+            "file": "/Volumes/Data/work/node_work/well_css/public/lib/base/template/template1.js",
+            "line": 10,
+            "description": "模板渲染类，用来将数据渲染成模板<br>\n默认采用jquery渲染，也可以通过创建时候指定渲染模板，并且覆盖部分方法<br>\n目前模板只支持渲染（不支持类似EL表达式的东西//TODO，后期应该会提供）",
+            "moduel": "template"
+        },
+        "Base.BASE": {
+            "name": "Base.BASE",
+            "shortname": "BASE",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "draw",
+            "namespace": "Base",
+            "file": "/Volumes/Data/work/node_work/well_css/public/lib/base/base.js",
+            "line": 17,
+            "description": "基础类，专注与类的创建和生产<br/>\n采用的类框架目前是Ember，可以通过配置去完成修改生成框架<br/>\n可以采用X代替",
+            "static": 1
+        }
+    },
+    "classitems": [
+        {
+            "file": "/Volumes/Data/work/node_work/well_css/public/lib/base/draw/Line.js",
+            "line": 1,
+            "description": "Created with JetBrains WebStorm.\nUser: rongwang\nDate: 13-7-27\nTime: 下午1:12\nTo change this template use File | Settings | File Templates.",
+            "class": "Base.draw.Line"
+        },
+        {
+            "file": "/Volumes/Data/work/node_work/well_css/public/lib/base/loader/ClassLoader.js",
+            "line": 1,
+            "description": "Created with JetBrains WebStorm.\nUser: rongwang\nDate: 13-7-30\nTime: 上午9:25\nTo change this template use File | Settings | File Templates.",
+            "class": "X.ClassLoader",
+            "module": "draw"
+        },
+        {
+            "file": "/Volumes/Data/work/node_work/well_css/public/lib/base/loader/ClassLoader.js",
+            "line": 16,
+            "description": "类加载列表",
+            "itemtype": "attribute",
+            "name": "required",
+            "type": "{Array}",
+            "class": "X.ClassLoader",
+            "module": "draw",
+            "namespace": "X"
+        },
+        {
+            "file": "/Volumes/Data/work/node_work/well_css/public/lib/base/loader/ClassLoader.js",
+            "line": 23,
+            "description": "表示类已经加载，在加载列表中增加当前类",
+            "itemtype": "method",
+            "name": "add",
+            "params": [
+                {
+                    "name": "className",
+                    "description": "类名"
+                }
+            ],
+            "class": "X.ClassLoader",
+            "module": "draw",
+            "namespace": "X"
+        },
+        {
+            "file": "/Volumes/Data/work/node_work/well_css/public/lib/base/loader/ClassLoader.js",
+            "line": 36,
+            "description": "加载js，并处理",
+            "itemtype": "method",
+            "name": "load",
+            "params": [
+                {
+                    "name": "url",
+                    "description": "js地址"
+                },
+                {
+                    "name": "callback",
+                    "description": "成功加载后回调"
+                }
+            ],
+            "class": "X.ClassLoader",
+            "module": "draw",
+            "namespace": "X"
+        },
+        {
+            "file": "/Volumes/Data/work/node_work/well_css/public/lib/base/loader/ClassLoader.js",
+            "line": 54,
+            "description": "加载类<br/>\n将类解析成地址，调用load加载",
+            "itemtype": "method",
+            "name": "require",
+            "params": [
+                {
+                    "name": "clazzs",
+                    "description": ""
+                },
+                {
+                    "name": "callback",
+                    "description": ""
+                }
+            ],
+            "class": "X.ClassLoader",
+            "module": "draw",
+            "namespace": "X"
+        },
+        {
+            "file": "/Volumes/Data/work/node_work/well_css/public/lib/base/loader/ClassLoader.js",
+            "line": 87,
+            "description": "设置classpath<br/>\n配置路径，已根目录为路径起点",
+            "example": [
+                "\n setPath({\n     'X.templet':'/lib/base/template'\n })"
+            ],
+            "itemtype": "method",
+            "name": "setPath",
+            "params": [
+                {
+                    "name": "path",
+                    "description": ""
+                }
+            ],
+            "class": "X.ClassLoader",
+            "module": "draw",
+            "namespace": "X"
+        },
+        {
+            "file": "/Volumes/Data/work/node_work/well_css/public/lib/base/loader/ClassLoader.js",
+            "line": 106,
+            "itemtype": "method",
+            "name": "getPath",
+            "params": [
+                {
+                    "name": "className",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "String"
+            },
+            "class": "X.ClassLoader",
+            "module": "draw",
+            "namespace": "X"
+        },
+        {
+            "file": "/Volumes/Data/work/node_work/well_css/public/lib/base/template/template.js",
+            "line": 1,
+            "description": "Created with JetBrains WebStorm.\nUser: rongwang\nDate: 13-7-27\nTime: 下午1:32\nTo change this template use File | Settings | File Templates.",
+            "class": "Base.template",
+            "module": "draw",
+            "namespace": "X"
+        },
+        {
+            "file": "/Volumes/Data/work/node_work/well_css/public/lib/base/template/template.js",
+            "line": 21,
+            "description": "模板<br>\n可以是数组也可以是html的字符串,需要替换的对象用{}包裹起来，可以是多级数据",
+            "itemtype": "attribute",
+            "name": "template",
+            "type": "{String|Array}",
+            "class": "Base.template",
+            "module": "draw",
+            "namespace": "Base"
+        },
+        {
+            "file": "/Volumes/Data/work/node_work/well_css/public/lib/base/template/template.js",
+            "line": 29,
+            "description": "可以提供正常人能读懂的html",
+            "itemtype": "attribute",
+            "name": "html",
+            "readonly": "",
+            "type": "{String}",
+            "class": "Base.template",
+            "module": "draw",
+            "namespace": "Base"
+        },
+        {
+            "file": "/Volumes/Data/work/node_work/well_css/public/lib/base/template/template.js",
+            "line": 37,
+            "description": "渲染引擎，目前是jqury，但是没有用到，很明显后期如果有时间的话会写成自己的实现，或者封装成接口类，\n更加明显的是：下面的方法都是基于jquery，等哥有机会的时候重写了,就不在只是依赖jqurey了。。",
+            "class": "Base.template",
+            "module": "draw",
+            "namespace": "Base"
+        },
+        {
+            "file": "/Volumes/Data/work/node_work/well_css/public/lib/base/template/template.js",
+            "line": 43,
+            "description": "创建html（只是生成html）",
+            "itemtype": "method",
+            "name": "createTemplate",
+            "params": [
+                {
+                    "name": "data",
+                    "description": "渲染数据"
+                }
+            ],
+            "return": {
+                "description": "生成好的html（也就是当前类的HTML）"
+            },
+            "class": "Base.template",
+            "module": "draw",
+            "namespace": "Base"
+        },
+        {
+            "file": "/Volumes/Data/work/node_work/well_css/public/lib/base/template/template.js",
+            "line": 54,
+            "description": "渲染html",
+            "itemtype": "method",
+            "name": "appendTemplate",
+            "params": [
+                {
+                    "name": "data",
+                    "description": "需要渲染的数据"
+                },
+                {
+                    "name": "render",
+                    "description": "渲染数据的容器ID"
+                }
+            ],
+            "class": "Base.template",
+            "module": "draw",
+            "namespace": "Base"
+        },
+        {
+            "file": "/Volumes/Data/work/node_work/well_css/public/lib/base/template/template.js",
+            "line": 67,
+            "description": "得到模板字符串",
+            "itemtype": "method",
+            "name": "getTemplate",
+            "return": {
+                "description": "template",
+                "type": "String"
+            },
+            "class": "Base.template",
+            "module": "draw",
+            "namespace": "Base"
+        },
+        {
+            "file": "/Volumes/Data/work/node_work/well_css/public/lib/base/template/template1.js",
+            "line": 1,
+            "description": "Created with JetBrains WebStorm.\nUser: rongwang\nDate: 13-7-27\nTime: 下午1:32\nTo change this template use File | Settings | File Templates.",
+            "class": "Base.template",
+            "module": "draw",
+            "namespace": "Base"
+        },
+        {
+            "file": "/Volumes/Data/work/node_work/well_css/public/lib/base/template/template1.js",
+            "line": 20,
+            "description": "模板<br>\n可以是数组也可以是html的字符串,需要替换的对象用{}包裹起来，可以是多级数据",
+            "itemtype": "attribute",
+            "name": "template",
+            "type": "{String|Array}",
+            "class": "Base.template",
+            "module": "draw",
+            "namespace": "Base"
+        },
+        {
+            "file": "/Volumes/Data/work/node_work/well_css/public/lib/base/template/template1.js",
+            "line": 28,
+            "description": "可以提供正常人能读懂的html",
+            "itemtype": "attribute",
+            "name": "html",
+            "readonly": "",
+            "type": "{String}",
+            "class": "Base.template",
+            "module": "draw",
+            "namespace": "Base"
+        },
+        {
+            "file": "/Volumes/Data/work/node_work/well_css/public/lib/base/template/template1.js",
+            "line": 36,
+            "description": "渲染引擎，目前是jqury，但是没有用到，很明显后期如果有时间的话会写成自己的实现，或者封装成接口类，\n更加明显的是：下面的方法都是基于jquery，等哥有机会的时候重写了,就不在只是依赖jqurey了。。",
+            "class": "Base.template",
+            "module": "draw",
+            "namespace": "Base"
+        },
+        {
+            "file": "/Volumes/Data/work/node_work/well_css/public/lib/base/template/template1.js",
+            "line": 42,
+            "description": "创建html（只是生成html）",
+            "itemtype": "method",
+            "name": "createTemplate",
+            "params": [
+                {
+                    "name": "data",
+                    "description": "渲染数据"
+                }
+            ],
+            "return": {
+                "description": "生成好的html（也就是当前类的HTML）"
+            },
+            "class": "Base.template",
+            "module": "draw",
+            "namespace": "Base"
+        },
+        {
+            "file": "/Volumes/Data/work/node_work/well_css/public/lib/base/template/template1.js",
+            "line": 53,
+            "description": "渲染html",
+            "itemtype": "method",
+            "name": "appendTemplate",
+            "params": [
+                {
+                    "name": "data",
+                    "description": "需要渲染的数据"
+                },
+                {
+                    "name": "render",
+                    "description": "渲染数据的容器ID"
+                }
+            ],
+            "class": "Base.template",
+            "module": "draw",
+            "namespace": "Base"
+        },
+        {
+            "file": "/Volumes/Data/work/node_work/well_css/public/lib/base/template/template1.js",
+            "line": 66,
+            "description": "得到模板字符串",
+            "itemtype": "method",
+            "name": "getTemplate",
+            "return": {
+                "description": "template",
+                "type": "String"
+            },
+            "class": "Base.template",
+            "module": "draw",
+            "namespace": "Base"
+        },
+        {
+            "file": "/Volumes/Data/work/node_work/well_css/public/lib/base/base.js",
+            "line": 1,
+            "auther": "xmzhu2\n用来处理OO对象，创建和生成类",
+            "class": "Base.BASE",
+            "module": "draw",
+            "namespace": "Base"
+        },
+        {
+            "file": "/Volumes/Data/work/node_work/well_css/public/lib/base/base.js",
+            "line": 26,
+            "description": "工具类<br/>\n默认采用的是<a href='javascript:void(0)' onclick=\"window.open('http://underscorejs.org')\">UNDERSCORE.js</a>\n<br/>如果没有引入，则为空对象，并且后续可能会为他新加入的功能。",
+            "itemtype": "attribute",
+            "name": "Util",
+            "type": "_",
+            "class": "Base.BASE",
+            "module": "draw",
+            "namespace": "Base"
+        },
+        {
+            "file": "/Volumes/Data/work/node_work/well_css/public/lib/base/base.js",
+            "line": 35,
+            "description": "控制台",
+            "itemtype": "attribute",
+            "name": "console",
+            "type": "{*}",
+            "class": "Base.BASE",
+            "module": "draw",
+            "namespace": "Base"
+        },
+        {
+            "file": "/Volumes/Data/work/node_work/well_css/public/lib/base/base.js",
+            "line": 42,
+            "description": "渲染引擎<br/>\n替换引擎必须要有jquery的渲染方法",
+            "default": "jQuery",
+            "itemtype": "attribute",
+            "name": "renderEngine",
+            "type": "{*|Function}",
+            "class": "Base.BASE",
+            "module": "draw",
+            "namespace": "Base"
+        },
+        {
+            "file": "/Volumes/Data/work/node_work/well_css/public/lib/base/base.js",
+            "line": 51,
+            "description": "用来创建对象的框架实体",
+            "itemtype": "attribute",
+            "name": "_$",
+            "default": "Ember.Object",
+            "type": "{Ember.Object}",
+            "access": "private",
+            "tagname": "",
+            "class": "Base.BASE",
+            "module": "draw",
+            "namespace": "Base"
+        },
+        {
+            "file": "/Volumes/Data/work/node_work/well_css/public/lib/base/base.js",
+            "line": 60,
+            "description": "用来创建对象框架生成类的方法名称",
+            "itemtype": "attribute",
+            "name": "createMethod",
+            "default": "'entend'",
+            "type": "{String}",
+            "class": "Base.BASE",
+            "module": "draw",
+            "namespace": "Base"
+        },
+        {
+            "file": "/Volumes/Data/work/node_work/well_css/public/lib/base/base.js",
+            "line": 68,
+            "description": "创建出来类生成实体对象的方法",
+            "itemtype": "attribute",
+            "name": "produceMethod",
+            "default": "'create'",
+            "type": "{String}",
+            "class": "Base.BASE",
+            "module": "draw",
+            "namespace": "Base"
+        },
+        {
+            "file": "/Volumes/Data/work/node_work/well_css/public/lib/base/base.js",
+            "line": 76,
+            "description": "当前页面origin",
+            "itemtype": "attribute",
+            "name": "BasePath",
+            "type": "{String}",
+            "class": "Base.BASE",
+            "module": "draw",
+            "namespace": "Base"
+        },
+        {
+            "file": "/Volumes/Data/work/node_work/well_css/public/lib/base/base.js",
+            "line": 83,
+            "description": "定义一个对象，允许继承<br/>\n默认采用Ember框架做类实现，也可以通过配置自由定义<br/>\n为每个生成的类都默认生成了一个 <span style=\"color:red\">produce</span>方法，用来创建实体",
+            "itemtype": "method",
+            "name": "define",
+            "static": 1,
+            "params": [
+                {
+                    "name": "className",
+                    "description": "创建类名",
+                    "type": "String"
+                },
+                {
+                    "name": "config",
+                    "description": "创建参数",
+                    "type": "Object"
+                },
+                {
+                    "name": "callback创建类完成后的回调",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "class": "Base.BASE",
+            "module": "draw",
+            "namespace": "Base"
+        },
+        {
+            "file": "/Volumes/Data/work/node_work/well_css/public/lib/base/base.js",
+            "line": 119,
+            "description": "定义一个类",
+            "itemtype": "method",
+            "name": "__define",
+            "params": [
+                {
+                    "name": "ns",
+                    "description": "命名空间"
+                },
+                {
+                    "name": "baseClass",
+                    "description": "基础类"
+                },
+                {
+                    "name": "config",
+                    "description": "参数"
+                },
+                {
+                    "name": "callback",
+                    "description": "回调"
+                }
+            ],
+            "access": "private",
+            "tagname": "",
+            "class": "Base.BASE",
+            "module": "draw",
+            "namespace": "Base"
+        },
+        {
+            "file": "/Volumes/Data/work/node_work/well_css/public/lib/base/base.js",
+            "line": 142,
+            "description": "同jquery的ajax，采用其实现",
+            "itemtype": "method",
+            "name": "ajax",
+            "type": "{*}",
+            "class": "Base.BASE",
+            "module": "draw",
+            "namespace": "Base"
+        },
+        {
+            "file": "/Volumes/Data/work/node_work/well_css/public/lib/base/base.js",
+            "line": 149,
+            "description": "得到父类",
+            "params": [
+                {
+                    "name": "className",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "*"
+            },
+            "access": "private",
+            "tagname": "",
+            "class": "Base.BASE",
+            "module": "draw",
+            "namespace": "Base"
+        },
+        {
+            "file": "/Volumes/Data/work/node_work/well_css/public/lib/base/base.js",
+            "line": 163,
+            "description": "通过类名找到类的命名空间<span style='color:red'>（未公开）</span>",
+            "itemtype": "method",
+            "name": "findNamespace",
+            "params": [
+                {
+                    "name": "className",
+                    "description": "类名称",
+                    "type": "String"
+                },
+                {
+                    "name": "scrop",
+                    "description": "作用域",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "命名空间{namespace:'',className:''}",
+                "type": "Object"
+            },
+            "access": "private",
+            "tagname": "",
+            "class": "Base.BASE",
+            "module": "draw",
+            "namespace": "Base"
+        },
+        {
+            "file": "/Volumes/Data/work/node_work/well_css/public/lib/base/base.js",
+            "line": 183,
+            "description": "用来分割和保存命名空间 <span style='color:red'>（未公开）</span><br/>\n(如果有就返回已经存在的，如果没有就生成一个命名空间)",
+            "itemtype": "method",
+            "name": "namespace",
+            "params": [
+                {
+                    "name": "className",
+                    "description": "类名称",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "命名空间{namespace:'',className:''}",
+                "type": "Object"
+            },
+            "access": "private",
+            "tagname": "",
+            "class": "Base.BASE",
+            "module": "draw",
+            "namespace": "Base"
+        }
+    ],
+    "warnings": [
+        {
+            "message": "unknown tag: moduel",
+            "line": " /Volumes/Data/work/node_work/well_css/public/lib/base/template/template.js:10"
+        },
+        {
+            "message": "unknown tag: moduel",
+            "line": " /Volumes/Data/work/node_work/well_css/public/lib/base/template/template1.js:10"
+        },
+        {
+            "message": "unknown tag: auther",
+            "line": " /Volumes/Data/work/node_work/well_css/public/lib/base/base.js:1"
+        },
+        {
+            "message": "Missing item type\nCreated with JetBrains WebStorm.\nUser: rongwang\nDate: 13-7-27\nTime: 下午1:12\nTo change this template use File | Settings | File Templates.",
+            "line": " /Volumes/Data/work/node_work/well_css/public/lib/base/draw/Line.js:1"
+        },
+        {
+            "message": "Missing item type\nCreated with JetBrains WebStorm.\nUser: rongwang\nDate: 13-7-30\nTime: 上午9:25\nTo change this template use File | Settings | File Templates.",
+            "line": " /Volumes/Data/work/node_work/well_css/public/lib/base/loader/ClassLoader.js:1"
+        },
+        {
+            "message": "Missing item type\nCreated with JetBrains WebStorm.\nUser: rongwang\nDate: 13-7-27\nTime: 下午1:32\nTo change this template use File | Settings | File Templates.",
+            "line": " /Volumes/Data/work/node_work/well_css/public/lib/base/template/template.js:1"
+        },
+        {
+            "message": "Missing item type\n渲染引擎，目前是jqury，但是没有用到，很明显后期如果有时间的话会写成自己的实现，或者封装成接口类，\n更加明显的是：下面的方法都是基于jquery，等哥有机会的时候重写了,就不在只是依赖jqurey了。。",
+            "line": " /Volumes/Data/work/node_work/well_css/public/lib/base/template/template.js:37"
+        },
+        {
+            "message": "Missing item type\nCreated with JetBrains WebStorm.\nUser: rongwang\nDate: 13-7-27\nTime: 下午1:32\nTo change this template use File | Settings | File Templates.",
+            "line": " /Volumes/Data/work/node_work/well_css/public/lib/base/template/template1.js:1"
+        },
+        {
+            "message": "Missing item type\n渲染引擎，目前是jqury，但是没有用到，很明显后期如果有时间的话会写成自己的实现，或者封装成接口类，\n更加明显的是：下面的方法都是基于jquery，等哥有机会的时候重写了,就不在只是依赖jqurey了。。",
+            "line": " /Volumes/Data/work/node_work/well_css/public/lib/base/template/template1.js:36"
+        },
+        {
+            "message": "Missing item type",
+            "line": " /Volumes/Data/work/node_work/well_css/public/lib/base/base.js:1"
+        },
+        {
+            "message": "Missing item type\n得到父类",
+            "line": " /Volumes/Data/work/node_work/well_css/public/lib/base/base.js:149"
+        }
+    ]
+}

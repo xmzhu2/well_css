@@ -1,0 +1,11 @@
+{
+  "name": "Well",
+  "description": "",
+  "version": "1.0测试",
+  "options": {
+    "paths": [
+      "/Volumes/Data/work/node_work/well_css/public/lib/base"
+    ],
+    "outdir": "./api"
+  }
+}
