@@ -7,7 +7,7 @@
  */
 
 
-BASE.define('Well.BaseBackground',{
+BASE.define('Well.background.BaseBackground',{
 
     requires:['X.template.Template','X.template.Template1'],
 
